@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       app: guestbook-ui
+      trigger1: go
   template:
     metadata:
       labels:
